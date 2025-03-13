@@ -48,7 +48,7 @@ void setup() {
     SerialBT.begin("DT-FOS");
     displayMessage("Bluetooth: DT-FOS");
     displayMessage("OS Initialized");
-    displayMessage("OS Versiob: V0.2");
+    displayMessage("OS Version: V0.2");
 
     Udp.begin(udpPort);
 }
