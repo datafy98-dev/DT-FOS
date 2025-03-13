@@ -110,7 +110,7 @@ void processCommand(String command) {
     } else if (command == "clear") {
     clearScreen();
     } else if (command == "info") {
-    String infoMessage = "M5StickC Plus 2 OS v1.0\n";
+    String infoMessage = "DT-FOS V0.2\n";
     infoMessage += String("Bluetooth: ") + String(isBluetoothEnabled ? "Connected" : "Disconnected") + "\n";
     infoMessage += String("WiFi Status: ") + String(WiFi.status() == WL_CONNECTED ? "Connected" : "Disconnected") + "\n";
     SerialBT.println(infoMessage);
@@ -128,7 +128,7 @@ void processCommand(String command) {
     } else if (command == "toggle_bt") {
     isBluetoothEnabled = !isBluetoothEnabled;
     if (isBluetoothEnabled) {
-    SerialBT.begin("DT-FOS V0.2");
+    SerialBT.begin("DT-FOS");
     displayMessage("Bluetooth enabled.");
     } else {
     SerialBT.end();
