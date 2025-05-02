@@ -1,0 +1,17 @@
+{
+  "name": "DT-FOS",
+  "about": "Maybe later...",
+  "version": "1.0",
+  "notes": "Nothing",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "Maybe later...",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
