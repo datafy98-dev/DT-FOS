@@ -2,6 +2,7 @@
 #include <BluetoothSerial.h>
 #include <WiFi.h>
 #include <WiFiUdp.h>
+#include <GyverHub.h>
 
 String ssid = "Poco X3 Pro";
 String password = "bobr kurva";
